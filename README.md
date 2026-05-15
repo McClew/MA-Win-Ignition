@@ -2,7 +2,7 @@
 
 This script is designed to automate the configuration of a clean Windows 11 installation into a malware analysis environment. It streamlines the removal of security features and the installation of essential tooling.
 
-It is recommended that this script is used alongside an optomised, "de-bloated" Windows image, such as [Windows X-Lite](https://windowsxlite.com/).
+It is recommended that this script is used alongside an optomised, "de-bloated" Windows image, such as [Windows X-Lite](https://windowsxlite.com/) or use [Tiny11 Builder](https://github.com/ntdevlabs/tiny11builder).
 
 ## PREREQUISITE
 **You MUST manually disable Tamper Protection before running this script.** Windows prevents scripts and registry changes from disabling Defender if Tamper Protection is active.
