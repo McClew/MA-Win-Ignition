@@ -42,12 +42,14 @@ It is recommended that this script is used alongside an optomised, "de-bloated" 
 ---
 
 ## Toolset Summary
-The script utilises **Scoop** to install portable versions of the following:
+The script utilises **Scoop** and manual downloads to install portable versions of the following tools:
 
 | Category | Tools Included |
 | :--- | :--- |
-| **Static Analysis** | PEStudio, Capa, Detect It Easy (DIE), Ghidra, Floss |
-| **Dynamic Analysis** | x64dbg, Wireshark, Process Hacker, Sysinternals Suite |
-| **Utilities** | CyberChef, HxD, HashMyFiles, 7-Zip |
+| **Static Analysis** | Capa, Ghidra, Floss, IDA Free, PE-bear, PEStudio, Resource Hacker, vBinDiff, Detect It Easy (DIE) |
+| **.NET & Shellcode** | dnSpyEx (dnSpy), scdbg |
+| **Dynamic Analysis** | x64dbg, Wireshark, System Informer, Sysinternals Suite, Regshot, FakeNet-NG |
+| **Malicious Documents** | LibreOffice, oletools, pcodedmp, PDFiD, pdf-parser |
+| **Utilities & Detection** | Google Chrome, CyberChef, HxD, HashMyFiles, 7-Zip, Yara, Graphviz, OpenVPN |
 
 All tools are linked in a **MalwareTools** folder created automatically on your Desktop.
